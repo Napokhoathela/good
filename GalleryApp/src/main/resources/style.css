@@ -1,0 +1,40 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.thumbnail:hover {
+    -fx-effect: dropshadow(gaussian, #333333, 10, 0.5, 0, 0);
+}
+
+.bottom-button {
+    -fx-font-size: 16px;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+.bottom-button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.text-area {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-padding: 10px;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+.grid-pane {
+    -fx-padding: 20px;
+}
+
+.grid-pane .thumbnail {
+    -fx-effect: dropshadow(gaussian, #333333, 10, 0.5, 0, 0);
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
